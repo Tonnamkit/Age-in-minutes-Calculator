@@ -46,5 +46,39 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="SELECT DATE"
-        android:backgroundTint="@color/btncolor"/>
+        android:backgroundTint="@color/btncolor"
+        android:textStyle="bold"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="date"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="selected date"
+        android:textColor="@color/TextBlue"
+        android:textSize="16sp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="minute"
+        android:textColor="@color/white"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="in miniues till date"
+        android:textColor="@color/TextBlue"
+        android:textSize="16sp"
+        />
 </LinearLayout>
