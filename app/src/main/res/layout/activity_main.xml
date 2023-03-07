@@ -48,14 +48,15 @@
         android:text="SELECT DATE"
         android:backgroundTint="@color/btncolor"
         android:textStyle="bold"/>
+
     <TextView
+        android:id="@+id/tvSelectedDate"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
-        android:text="date"
+        android:text="Please Select Date"
         android:textColor="@color/white"
-        android:textSize="20sp"
-        />
+        android:textSize="20sp" />
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -64,15 +65,15 @@
         android:textColor="@color/TextBlue"
         android:textSize="16sp"
         />
+
     <TextView
+        android:id="@+id/tvAgetoMinutes"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
-        android:text="minute"
         android:textColor="@color/white"
         android:textSize="28sp"
-        android:textStyle="bold"
-        />
+        android:textStyle="bold" />
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
